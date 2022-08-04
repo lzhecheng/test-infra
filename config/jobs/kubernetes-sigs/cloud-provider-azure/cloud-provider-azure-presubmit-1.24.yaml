@@ -253,6 +253,7 @@ presubmits:
               # Specific test args
               - --test-ccm
               - --ginkgo-parallel=30
+              - --test_args=--fail-fast
             securityContext:
               privileged: true
             env:
